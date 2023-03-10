@@ -38,5 +38,8 @@ bash run.sh
 ```
 
 ## Job Failure handling
-    * Heartbeat check - Master Keep checking heartbeat of workers periodically. If Any worker dies it reschedule the job to another worker.
-    * Restarting Job - If any worker dies after processing a mapper task, then Master will restart whole job again.
+
+* Heartbeat check - Master Keep checking heartbeat of workers periodically. If Any worker dies it 
+reschedule the job to another worker.
+
+* Restarting Job - If any worker dies after processing a mapper task, then Master will restart whole job again.
