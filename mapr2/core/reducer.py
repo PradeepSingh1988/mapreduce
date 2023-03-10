@@ -51,8 +51,6 @@ class Reducer:
                 if self._stop:
                     break
                 values = key_value_list[key]
-                if key == "&":
-                    self._log("Value of key '&' is {}".format(sum(values)))
                 result = self._reduce_fn(key, values)
                 fd.write("{} {}\n".format(key, result))
         if not self._stop:
