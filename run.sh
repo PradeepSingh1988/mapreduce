@@ -1,7 +1,3 @@
-# python -m mrapps.word_count --input-file /Users/singhpradeepk/workspace/code/mit-6.824-labs/src/main/pg-being_ernest.txt --output-file mr-s-wc-all
-# sort mr-s-wc-all > correct-mr-s-wc-all
-# rm mr-s-wc-all
-
 DIR="tmp"
 mkdir $DIR
 
